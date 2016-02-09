@@ -40,11 +40,11 @@ var nachos = ["chips", "cheese", "carne", "salsa", "guac"];
 console.log(nachos.join(" and "));
 //--> chips and cheese and carne and salsa and guac
 
-// .pop() - Removes the last item from the end of an array
+// .pop() - Removes the last item from the end of an array and the displays it
 var nachos = ["chips", "cheese", "carne", "salsa", "guac"]
-var nachos = nachos.pop()
-console.log(nachos)
-//--> [ 'chips', 'cheese', 'carne', 'salsa' ]
+console.log(nachos.pop())
+
+//--> [ 'guac']
 
 // .push() - Adds to the end of an array
 //adds one or more elements to the end of an array and returns the new length of the array.
@@ -66,7 +66,7 @@ console.log(nachos.splice(1, 2));
 //--> [ 'cheese', 'carne', 'salsa' ]
 
 // .shift() - Removes the first element from an array and returns that element. This method changes the length of the array.
-var nachos =["chips", "cheese", "carne", "salsa", "guac"]
+var nachos = ["chips", "cheese", "carne", "salsa", "guac"]
 console.log(nachos.shift());
 //--> chips
 
