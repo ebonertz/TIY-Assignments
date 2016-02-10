@@ -28,8 +28,6 @@ for (num = 0; item <= list.length; num++)
   list[num].style.color= "red";
 }
 
-/** Create new img element and set its src to a picture **/
-
 var Happy = new Image () ;
 happy.src = "happy.jpg";
 console.log(happy);
