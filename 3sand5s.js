@@ -1,15 +1,10 @@
 <doctype! JavaScript>
-
-for( int i=1; i<=100; ++i )
+var sum = 0;
+var number;
+for(  number=0; number < 1000; number++)
 {
-  .int modThree = i % 3;
-  .int modFive = i % 5;
-  .if( modThree && modFive ){
-    ..print i; // neither divisible by 3 nor 5
-.}
+  if ((number % 3 === 0) || (number % 5 === 00));
+    sum += number;
+  }
 
-else{
-..if( !modThree ) print "Fizz";
-..if( !modFive ) print "Buzz";
-.}
-}
+console.log(sum);

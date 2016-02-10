@@ -1,3 +1,9 @@
+// Add a script tag in the appropriate place.
+// Using JavaScript, change the body's tag style so it has a font-family of the sans-serif font stack of your choice.
+// Using JavaScript, replace each of the spans with your own information.
+// Iterate through each li and change the class to listitem. Add a style tag that sets a rule for listitem to make the color red.
+// Create a new img element and set its src attribute to a picture of you. Append that element to the page.
+
 var bodyStyle = document.querySelector("body");
 bodyStyle.style.fontFamily = "Verdana";
 
@@ -13,8 +19,18 @@ myMovie.textContent = "Slap Shot";
 var myFood = document.getElementById("food");
 myFood.textContent = "Subway";
 
-// Create a new img element and set its src attribute to a picture of you. Append that element to the page.
-var happy = new Image(400, 400);
-happy.src = "./happy.jpg";
+
+var list = document.getElementsByTagName("li");
+
+for (num = 0; item <= list.length; num++)
+{
+  list[num].className = "listItem";
+  list[num].style.color= "red";
+}
+
+/** Create new img element and set its src to a picture **/
+
+var Happy = new Image () ;
+happy.src = "happy.jpg";
 console.log(happy);
 body.appendChild(happy);
