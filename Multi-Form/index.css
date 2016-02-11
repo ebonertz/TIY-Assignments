@@ -1,0 +1,51 @@
+body {
+  margin:3em;
+  background:#47a3da;
+  font-family: "Arial";
+  text-align: center;
+}
+
+header {
+  margin: .5em;
+}
+
+h1 {
+  color:white;
+  font-family: "Lato";
+  font-size: 2.5em;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+label{
+  display:block;
+  padding: .8em;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+input {
+  padding-left: .8em;
+  text-align: left;
+}
+
+::-webkit-input-placeholder{
+  font-style:italic;
+  color: #10689A;
+  font-size: 1em;
+  text-align: left;
+}
+
+input, textarea, select {
+  border: 2px solid #eee;
+  background: transparent;
+  color: #eee;
+}
+
+.form {
+  color: white;
+}
+.form-submit{
+  margin:1em;
+}
