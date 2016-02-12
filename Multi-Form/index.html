@@ -5,6 +5,7 @@
   <title>Phish Phorm</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="index.css">
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
@@ -13,10 +14,10 @@
 
 <section class="main">
 
-  <form action="#" class="form">
+  <form action="#" id="frm1" class="form">
     <div class="form-column">
       <label for="first-name">First Name</label>
-        <input type="text" id="first-name" name="first-name" placeholder="Larry"/>
+        <input type="text" autofocus id="first-name" name="first-name" placeholder="Larry"/>
       <label for="last-name">Last Name</label>
         <input type="text" id="last-name" name="last-name" placeholder="Landingear"/>
       <label for="email-address">Email Address</label>
@@ -31,10 +32,10 @@
         </select>
       <label for="song">Favorite Song</label>
         <textarea id="song" name="song" placeholder="Eminence Front"/></textarea>
-      <div class="form-submit"><input class="form-submit-button" type="submit" value="submit" />
+        <br>
+      <button class="button" class="form-submit-button" type="submit" value="Submit" > Submit </button>
 
-
-
+        <script src="index.js"></script>
       </form>
     </section>
   </body>

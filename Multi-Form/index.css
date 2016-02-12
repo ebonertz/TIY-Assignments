@@ -11,9 +11,9 @@ header {
 
 h1 {
   color:white;
-  font-family: "Lato";
-  font-size: 2.5em;
-  margin: 1em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+  margin: em;
   padding: 1em;
   text-align: center;
 }
@@ -27,7 +27,9 @@ label{
 
 input {
   padding-left: .8em;
+  padding: .5em;
   text-align: left;
+  width: 1    5em;
 }
 
 ::-webkit-input-placeholder{
@@ -35,17 +37,27 @@ input {
   color: #10689A;
   font-size: 1em;
   text-align: left;
+  padding-left:1em;
 }
 
 input, textarea, select {
   border: 2px solid #eee;
   background: transparent;
   color: #eee;
+  width: 35em;
 }
 
 .form {
   color: white;
 }
-.form-submit{
-  margin:1em;
+
+ button {
+   width:10em;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform:uppercase;
+  background:#eee;
+  color:#47a3da;
 }
