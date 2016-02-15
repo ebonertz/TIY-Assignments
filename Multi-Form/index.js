@@ -11,23 +11,19 @@
 var fname = document.querySelector("#first-name");
 var lname = document.querySelector("#last-name");
 var email = document.querySelector("#email-address");
+var member = document.querySelector("#idmember");
 
 
   var formSubmit = document.querySelector("button");
   formSubmit.addEventListener("click", function(event) {
         console.log(fname.value);
+        fname.value ="";
+        console.log(lname.value);
+        lname.value ="";
+        console.log(email.value);
+        email.value ="";
         event.preventDefault();
       });
-
-    formSubmit.addEventListener("click", function(event) {
-          console.log(lname.value);
-          event.preventDefault();
-        });
-
-      formSubmit.addEventListener("click", function(event) {
-            console.log(email.value);
-            event.preventDefault();
-          });
 
 
 
