@@ -55,6 +55,10 @@ input, textarea, select {
   width: 30em;
 }
 
+input:focus, textarea:focus {
+  border: 4px solid #10689A;
+  }
+
 .form {
   color: white;
   display: inline-block;
