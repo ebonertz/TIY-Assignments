@@ -1,0 +1,124 @@
+body {
+  margin:3em;
+  background:#47a3da;
+  font-family: "Arial";
+  text-align: center;
+}
+
+header {
+  margin: .5em;
+}
+
+h1 {
+  color:white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+  margin: .5em;
+  padding: .5em;
+  text-align: center;
+}
+h2 {
+  color: #47a3d;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2em;
+
+}
+
+label{
+  display:block;
+  padding: .8em;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+input {
+  padding-left: .8em;
+  padding: .5em;
+  text-align: left;
+  width: 1    5em;
+}
+
+::-webkit-input-placeholder{
+  font-style:italic;
+  color: #10689A;
+  font-size: 1em;
+  text-align: left;
+  padding-left:1em;
+}
+
+input, textarea, select {
+  border: 2px solid #eee;
+  background: transparent;
+  color: #eee;
+  width: 30em;
+}
+
+.form {
+  color: white;
+  display: inline-block;
+  }
+
+.btn {
+  margin-top: 50px;
+  text-align:center;
+  margin:auto;
+  margin-top: 5em;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform:uppercase;
+  background:#eee;
+  color:#47a3da;
+  display:block;
+  position: relative;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.modal-container {
+  position: fixed;
+  margin: 2em;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  border: 1px solid red;
+}
+
+.modal-container.showing {
+  display: block;
+  background: green;
+}
+.modal {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  bottom:1em;
+  right: 1em;
+  background: white;
+  border: 2px solid #AAA;
+  padding: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 10em;;
+  margin-bottom: 7.5em;
+  text-align: center;
+  font-family: helvetica;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  border-radius: 2em;
+  background: #EEE;
+  border: 2px solid #AAA;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1.em;
+}
+.char-num {
+  float:right;
+  font-size: .5em;
+  margin-right: 15px;
+  margin-top: 5px;
+}
