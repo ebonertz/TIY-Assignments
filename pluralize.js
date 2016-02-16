@@ -1,11 +1,13 @@
 function pluralize( noun, number) {
     var count= (number + noun);
 
-    if (number <= 1) {
-    console.log("count");
+    if (number === 1) {
+    console.log(number+" "+noun);
     }
 
-    else (number > 1) {
-    console.log(number+ noun + "s");
+    else {
+    console.log(number+ " " + noun + "s");
 }
 }
+pluralize("cow", 5);
+pluralize("dog", 1);
