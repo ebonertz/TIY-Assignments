@@ -1,14 +1,19 @@
-function helloWorld ( ) {
-    var language = "fun"
-    var en = english
-    var es = spanish
-    var de = german
 
-    if (language= 'en')
-     console.log("Hello, World")
-    else if (language= 'de')
-    console.log("Hallo, Welt")
-    else if (language= 'es')
-    console.log("Hola, Mundo")
-
+  function helloWorld(lang){
+  if (lang === 'es'){
+    console.log("Hola Mundo");
+  }
+  else if (lang === "de"){
+    console.log("Hallo Welt");
+  }
+  else if (lang === "en"){
+    console.log("Hello world");
+  }
+  else{
+    console.log("pick another language");
+  }
 }
+
+helloWorld("en");
+helloWorld("es");
+helloWorld("de");
