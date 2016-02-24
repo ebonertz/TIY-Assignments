@@ -4,9 +4,11 @@ How does the API handle authentication?<br>
 There are three ways to authenticate. 
 
 Do I need to authenticate? <br>
-Yes or the server will return an error. <br>
+Yes or the server will return an error.
+
 What can I do with an unauthenticated request?<br>
-You can get request but only 60 times in an hour <br>
+You can get request but only 60 times in an hour
+
 How can I authenticate my request? (3 ways)<br>
 1. Basic Authentication with username 2. OAuth Token sent in a header 3. OAuth2 Token sent as a parameter. 
 How do I ask the API for...
