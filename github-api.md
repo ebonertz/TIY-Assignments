@@ -1,4 +1,4 @@
-This should be done individually
+### Github API Questions
 
 How does the API handle authentication?<br>
 There are three ways to authenticate. 
