@@ -17,7 +17,8 @@ Next Pass two parameters
 1. a URL <br>
 2. a function that will be called when the data has been received from get request. Also known as a Callback Function<br>
 The repository listing for a specific user?<br>
-The recent, public activity for a specific user?
+The recent, public activity for a specific user?<br>
+
 <strong> Is there a limit to the number of requests I can make?</strong><br>
 Requests using Basic Authentication you can make up to 5,000 request per hour. For unauthenticated request you can make 60 per hour. 
 Is there a way of extending that limit?<br>
