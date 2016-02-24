@@ -3,7 +3,7 @@
 <strong>How does the API handle authentication?</strong><br>
 There are three ways to authenticate. 
 
-<strong>Do I need to authenticate?<strong> <br>
+<strong>Do I need to authenticate?</strong> <br>
 Yes or the server will return an error.
 
 <strong>What can I do with an unauthenticated request?</strong><br>
