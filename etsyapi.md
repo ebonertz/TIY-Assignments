@@ -1,10 +1,14 @@
-How do I make API requests?
+How do I make API requests?<br>
+First sign up for a developer account and get a key. 
 
-What is the base URL for all requests?
+What is the base URL for all requests?<br>
+'https://openapi.etsy.com/v2'
 
-Are there any headers or query parameters required?
+Are there any headers or query parameters required?<br>
+ID parameters must be present in the request URL
 
-What kind of response should I expect?
+What kind of response should I expect?<br>
+Your request will return a JSON file with objects.
 
 How does the API handle authentication?
 
